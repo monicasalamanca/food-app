@@ -9,7 +9,7 @@ const SearchBar = ({ term, onTermChange, onTermSubmit }) => {
       <TextInput 
         style={styles.inputStyle}
         autoCapitalize="none"
-        autoCorrect="false"
+        autoCorrect={false}
         placeholder="Search"
         value={term}
         onChangeText={onTermChange}
